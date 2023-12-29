@@ -1,0 +1,129 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E4E4E4;
+}
+
+
+
+
+
+/* menu de navigation*/
+nav{
+    background-color: black;
+    color: white;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 0;
+    padding-left:2%;
+    padding-right:2%;
+    align-items: center;
+   
+}
+/*il faudrait aligner les icones bien comme il faut et aussi faire l'espacement correctement entre le texte et l'icone*/
+nav ul li img{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+nav a:hover{
+    background-color: #CA0000;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CA0000;
+    align-items: center;
+    box-sizing: content-box;
+}
+.material-icons.icon-menu { 
+    font-size: 15px; 
+}
+.current{
+    background-color: red;
+}
+
+
+
+h1{
+    font-family: 'Lalezar';
+    font-size: 38px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+#img-competences{
+    border-color: #4D0404;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left:10%;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left:10%;
+    table-layout: fixed;
+    border-color: black;
+}
+.col{
+    width:19%;
+    border-radius: 10px;
+    border-color: #CA0000;
+}
+.vide{
+    width: 1.25%;
+    border-color: black;
+}
+td .col{
+    text-align: left;
+    padding: 20%;
+}
+.noms{
+    text-align: center;
+    /*width: 33.33%;*/
+    border-radius: 10px;
+    border-color: #CA0000;
+}
+#tab2 td{
+    width: 10%;
+}
+table td,th,tr{
+    color: white;
+    border-color: black;
+}
+
+table, td, th{border: 1px solid}
