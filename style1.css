@@ -1,0 +1,186 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #E4E4E4;
+}
+
+
+
+
+
+/* menu de navigation*/
+nav{
+    background-color: black;
+    color: white;
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 0;
+    padding-left:2%;
+    padding-right:2%;
+    align-items: center;
+}
+/*il faudrait aligner les icones bien comme il faut et aussi faire l'espacement correctement entre le texte et l'icone*/
+nav ul li img{
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bouton:hover{/*on peut enlever des trucs plus bas*/
+    background-color: #CA0000;
+}
+#menu .bouton{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #CA0000;
+    align-items: center;
+    box-sizing: content-box;
+}
+.material-icons.icon-menu { 
+    font-size: 15px; 
+    vertical-align: text-top;
+}
+.drop{/*icons*/
+    vertical-align: middle;
+}
+.current{
+    background-color: red;
+}
+nav ul li{
+    vertical-align: middle;
+}
+.dropdown-menu{/*cacher le menu deroulant*/
+    display: none;
+    position: absolute; /*reviser ça*/
+    padding-top: 3px;
+}
+.sous-bouton {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: #CA0000;
+    position: relative;
+}
+.separateur{/*attention mettre un id si pas besoin de class*/
+    border-color: black;
+    border-bottom-style: solid;
+    border-width: 1px;
+}
+.dropbutton:hover .dropdown-menu{
+    display: block;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+.dropbutton:hover .bouton {
+    background-color: #CA0000;
+}
+.rectangle {
+    height: 100%;
+    width: 5px;
+    background-color: #CA0000;
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+.sous-bouton:hover .rectangle{
+    background-color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1{
+    font-family: 'Lalezar';
+    font-size: 38px;
+}
+
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+#img-competences{
+    border-color: #4D0404;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left:10%;
+}
+
+
+
+
+/*FOOTER*/
+footer{
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+}
+table{
+    display: flex;
+    flex-direction: column;
+    padding-right: 10%;
+    padding-left:10%;
+    table-layout: fixed;
+    border-color: black;
+    font-size: small ;
+}
+.col{
+    width:19%;
+    border-radius: 10px;
+    border-color: #CA0000;
+}
+.vide{
+    width: 1.25%;
+    border-color: black;
+}
+td .col{
+    text-align: left;
+    padding: 20%;
+}
+.noms{
+    text-align: center;
+    /*width: 33.33%;*/
+    border-radius: 10px;
+    border-color: #CA0000;
+}
+#tab2 td{
+    width: 10%;
+}
+table td,th,tr{
+    color: white;
+    border-color: black;
+}
+
+table, td, th{border: 1px solid}
