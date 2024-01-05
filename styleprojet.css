@@ -180,7 +180,9 @@ p{
     grid-column-end: 2;
 }
 
-
+h2{
+    text-decoration: underline #CA0000;
+}
 
 
 
