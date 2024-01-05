@@ -118,6 +118,10 @@ h1 {
     grid-column-start: 1;
     grid-column-end: 4;
 }
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
 #para{
     font-family: 'Roboto', sans-serif;
     text-align: justify;

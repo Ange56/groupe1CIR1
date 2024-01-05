@@ -103,45 +103,152 @@ nav ul li{
 
 
 
+#layout {
+    display: grid;
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-template-rows: 100 px 10px 400px 20px 400px 10px 400px 10px 75px 10px 400px; 
+    grid-template-columns: 200px 10px 650px;
+}
+#titre1 {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+h1{
+    font-family: 'Lalezar';
+    font-size: 38px;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+#txt1{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#img1{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#txt2{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#img2{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#txt3{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#img3{
+    grid-row-start: 7;
+    grid-row-end: 8;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+#titre2{
+    grid-row-start: 9;
+    grid-row-end: 10;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+#txt4{
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+#img4{
+    grid-row-start: 11;
+    grid-row-end: 12;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*FOOTER*/
 footer{
-    background-color: black;
+    background-color: black;/*couleur de fond du footer*/
     font-family: 'Roboto', sans-serif;
 }
 table{
-    display: flex;
+    display: flex;/*tableau responsive*/
     flex-direction: column;
     padding-right: 10%;
     padding-left:10%;
-    table-layout: fixed;
+    table-layout: fixed;/*la colonne du tableau de s'ajuste pas à la taille du contenu*/
     border-color: black;
     font-size: small ;
 }
 .col{
-    width:19%;
+    width:19%;/*taille des colonnes en fonction de la taille de l'écran*/
     border-radius: 10px;
     border-color: #CA0000;
 }
-.vide{
+.vide{/*on veut des colonnes qui séparent vides*/
     width: 1.25%;
     border-color: black;
 }
-td .col{
+td .col{/*le texte est aligné à gauche*/
     text-align: left;
     padding: 20%;
 }
-.noms{
+.noms{/*les noms des colonnes sont alignés au centre*/
     text-align: center;
-    /*width: 33.33%;*/
     border-radius: 10px;
     border-color: #CA0000;
 }
 #tab2 td{
     width: 10%;
 }
-table td,th,tr{
+table td,th,tr{/*couleurs pour les lignes du tableau qu'on ne veut pas voir*/
     color: white;
     border-color: black;
 }
+.lien-icon{/*les icones linkedin sont sur la meme ligne que le texte*/
+    display:inline-block;
+    margin-left: 8px;
+}
+.linkedin{/*on enlève les paramètres par défaut des liens*/
+    text-decoration: none;
+    color: white;
+}
 
-table, td, th{border: 1px solid}
+table, td, th{/*bordure du tableau*/
+    border: 1px solid;
+}
+
