@@ -113,7 +113,6 @@ h1{              /*on définit la police des titres1*/
     grid-template-columns: 184px 366px 1fr 262px 1fr ;
     
     grid-template-rows: 177px 190px 401px 238px 215px 185px 196px 194px 1fr  ;
-}
 #UBO{
 
     grid-row-start: 2;
@@ -148,10 +147,10 @@ h1{              /*on définit la police des titres1*/
     
 }
 #kardham{
-    grid-row-start: 3;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 2;
+    grid-column-end: 3;
 }
 #generix{
     grid-row-start: 4;
@@ -160,30 +159,31 @@ h1{              /*on définit la police des titres1*/
     grid-column-end: 5;
 }
 #thales{
-    grid-row-start: 4;
-    grid-row-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
     grid-column-start: 4;
     grid-column-end: 5;
 }
 #internationaux{
-    grid-row-start: 5;
-    grid-row-end: 6;
+    grid-row-start: 6;
+    grid-row-end: 7;
     grid-column-start: 3;
     grid-column-end: 4;
 
 }
 #maroc{
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
     grid-column-start:2;
     grid-column-end: 3;
 }
 #ENIS{
-    grid-row-start: 6;
-    grid-row-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 8;
     grid-column-start: 4;
     grid-column-end: 5;
 }
+
 
 
 
